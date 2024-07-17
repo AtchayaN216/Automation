@@ -179,17 +179,17 @@ public class LibGlobal {
 
 	}
 
-	public void setText(WebElement e, String data) {
-		try {
-			if (enabled(e) && displayed(e)) {
-				e.sendKeys(data);
-			}
+	// public void setText(WebElement e, String data) {
+	// 	try {
+	// 		if (enabled(e) && displayed(e)) {
+	// 			e.sendKeys(data);
+	// 		}
 
-		} catch (Exception e2) {
-			System.out.println(e2.getMessage());
-		}
+	// 	} catch (Exception e2) {
+	// 		System.out.println(e2.getMessage());
+	// 	}
 
-	}
+	// }
 
 	public static void btnClick(WebElement element) {
 		try {
